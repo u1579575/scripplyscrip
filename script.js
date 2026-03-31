@@ -65,6 +65,8 @@ function pickRandomFact() {
 
 function setDefaultDates() {
   const today = new Date();
+  today.setDate(today.getDate() - 1); // move back 1 day
+
   const endDate = formatDate(today);
   const startDate = subtractDays(endDate, GALLERY_DAYS - 1);
 
