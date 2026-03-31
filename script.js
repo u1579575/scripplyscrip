@@ -1,4 +1,4 @@
-const API_KEY = "DEMO_KEY"; // Replace with your personal NASA API key for best results.
+const API_KEY = "g9fCUTfKnNcwQx6AvT0YedvolrqwOvt7NSbnzpHo";
 const APOD_URL = "https://api.nasa.gov/planetary/apod";
 const GALLERY_DAYS = 9;
 const SPACE_FACTS = [
